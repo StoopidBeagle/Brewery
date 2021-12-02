@@ -4,14 +4,14 @@
     <tr>
         <th>Brewer</th>
         <th>Name</th>
-        <td>Type</td>
+        <th>Type</th>
     </tr>
     @foreach (var beer in Model)
     {
-        <tr>
-            <td>@beer.Brewer</td>
-            <td><a href="beers/@beer.ID">@beer.Name</a></td>
-            <td>@beer.Type</td>
-        </tr>
+    <tr>
+        <td>@beer.Brewer</td>
+        <td><a href="beers/@beer.ID">@beer.Name</a></td>
+        <td>@beer.Type</td>
+    </tr>
     }
 </table>
