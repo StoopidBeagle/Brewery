@@ -19,15 +19,21 @@ namespace app.Controllers
 	        {
                 ID = 1,
                 Brewer = "Yuengling", 
-                Name = "Lager",
-	            Type = "Lager" 
+                Name = "Traditional Lager",
+	            Type = "Lager",
+                AlcoholByVolume = 4.5,
+                Color = "Amber",
+                Calories = 140,
 	        },   
 	        new Beer()
 	        {
                 ID = 2,
                 Brewer = "Coors", 
-	            Name = "Banquet Beer",
-	            Type = "Lager"
+	            Name = "Banquet",
+	            Type = "Lager",
+                AlcoholByVolume = 5.0,
+                Color = "Amber",
+                Calories = 149,
 	        },
 	        new Beer()
 	        {

@@ -29,6 +29,7 @@ namespace app.Models
         public string Type            { get; set; }
 	    public double AlcoholByVolume { get; set; }
 	    public double AlcoholByWeight { get; set; }
+        public int    Calories        { get; set; }
 	    public string Aroma           { get; set; }
     }
 }
