@@ -12,7 +12,7 @@ namespace app.Models
         "Spicy",
         "Heat-Induced",
         "Biological" 
-    }
+    };
 
     /*
        https://craftbeeracademy.com/beer-characteristics/
@@ -21,11 +21,11 @@ namespace app.Models
     {
         public string Brewer          { get; set; }
         public string Name            { get; set; }
-	public string Color           { get; set; }
-	public string Clarity         { get; set; }
+	    public string Color           { get; set; }
+	    public string Clarity         { get; set; }
         public string Type            { get; set; }
-	public double AlcoholByVolume { get; set; }
-	public double AlcoholByWeight { get; set; }
-	public string Aroma           { get; set; }
+	    public double AlcoholByVolume { get; set; }
+	    public double AlcoholByWeight { get; set; }
+	    public string Aroma           { get; set; }
     }
 }
