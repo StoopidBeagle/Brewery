@@ -3,22 +3,25 @@ using System.Collections.Generic;
 
 namespace app.Models
 {
-    private List<string> Aromas = new List<string>() 
-    {
-        "Fruity",
-        "Texture",
-        "Floral",
-        "Vegetal",
-        "Spicy",
-        "Heat-Induced",
-        "Biological" 
-    };
+
 
     /*
        https://craftbeeracademy.com/beer-characteristics/
     */
     public class Beer
     {
+
+        public static List<string> Aromas = new List<string>() 
+        {
+            "Fruity",
+            "Texture",
+            "Floral",
+            "Vegetal",
+            "Spicy",
+            "Heat-Induced",
+            "Biological" 
+        };
+        
         public string Brewer          { get; set; }
         public string Name            { get; set; }
 	    public string Color           { get; set; }
