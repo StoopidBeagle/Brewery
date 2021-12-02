@@ -1,0 +1,17 @@
+@model IEnumerable<app.Models.Beer>
+
+<table>
+    <tr>
+        <th>Brewer</th>
+        <th>Name</th>
+        <td>Type</td>
+    </tr>
+    @foreach (var beer in Model)
+    {
+        <tr>
+            <td>@beer.Brewer</td>
+            <td><a href="beers/@beer.Name">@beer.Name</a></td>
+            <td>@beer.Type</td>
+        </tr>
+    }
+</table>

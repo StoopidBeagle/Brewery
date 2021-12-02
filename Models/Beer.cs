@@ -21,7 +21,7 @@ namespace app.Models
             "Heat-Induced",
             "Biological" 
         };
-        
+        public int    ID              { get; set; }
         public string Brewer          { get; set; }
         public string Name            { get; set; }
 	    public string Color           { get; set; }
