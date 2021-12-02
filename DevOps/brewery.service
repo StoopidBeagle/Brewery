@@ -1,0 +1,10 @@
+[Unit]
+Description = Brewery Server
+
+[Service]
+Type = forking
+WorkingDirectory = /home/github.com/stoopidbeagle/Brewery
+ExecStart = brewery.sh
+
+[Install]
+WantedBy = multi-user.target
