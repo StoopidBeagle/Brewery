@@ -57,7 +57,7 @@ namespace app.Controllers
             return View(Beers);
         }
 
-        [Route("/names/{id}")]
+        [Route("/beers/{id}")]
         public ActionResult BeerDetailView(int id)
         {
             Console.WriteLine($"Looking for beer id={id}");
