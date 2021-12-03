@@ -4,14 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace app.Models 
-{
-    class COLOR 
-    {
-        public string SRM { get; set; }
-        public string RGB { get; set; }
-    }
-
-    class BeerColor
+{    
+    public class BeerColor
     {
         private static List<BeerColor> _colors = null;
         public static List<BeerColor> Colors 
