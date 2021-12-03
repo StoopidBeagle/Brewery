@@ -21,8 +21,11 @@
         <td>Calories</td>
         <td>@Model.Calories</td>
     </tr>
+    @if (@Model.Color != null)
+    {
     <tr>
         <td>Color</td>
         <td bgcolor="@Model.Color"></td>
     </tr>
+    }
 </table>
