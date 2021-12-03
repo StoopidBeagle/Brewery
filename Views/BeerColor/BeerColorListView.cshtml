@@ -1,0 +1,9 @@
+@model IEnumerable<app.Models.BeerColor>
+<table>
+@foreach (var color in Model) 
+{
+    <tr>
+        <td bgcolor="RGB(@color.RGB)">@color.SRM</td>
+    </tr>
+}
+</table>
