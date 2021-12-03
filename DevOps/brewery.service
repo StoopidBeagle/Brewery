@@ -2,7 +2,7 @@
 Description = Brewery Server
 
 [Service]
-Type = forking
+Type = simple
 WorkingDirectory = /home/github.com/stoopidbeagle/Brewery
 ExecStart = dotnet run
 Environment=DOTNET_CLI_HOME=/temp
