@@ -22,7 +22,7 @@ namespace app.Controllers
                 Name = "Traditional Lager",
 	            Type = "Lager",
                 ABV = 4.5,
-                Color = "Amber",
+                Color = "#FFBF00",
                 Calories = 140,
 	        },   
 	        new Beer()
@@ -32,7 +32,7 @@ namespace app.Controllers
 	            Name = "Banquet",
 	            Type = "Lager",
                 ABV = 5.0,
-                Color = "Amber",
+                Color = "#FFBF00",
                 Calories = 149,
 	        },
 	        new Beer()
